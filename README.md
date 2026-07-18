@@ -1,0 +1,1 @@
+Maxeys Visuals is a specialized DXGI proxy engine that hooks the swapchain to capture and stream high-fidelity depth textures. By delivering these shared depth handles to an external overlay process, it provides a high-performance, low-latency pipeline for custom rendering and real-time visual manipulation.
