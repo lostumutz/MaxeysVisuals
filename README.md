@@ -1,1 +1,11 @@
-Maxeys Visuals is a specialized DXGI proxy engine that hooks the swapchain to capture and stream high-fidelity depth textures. By delivering these shared depth handles to an external overlay process, it provides a high-performance, low-latency pipeline for custom rendering and real-time visual manipulation.
+Overview
+MV is designed for developers and enthusiasts requiring direct, low-overhead access to depth buffer data. By utilizing a DXGI proxy DLL, it bridges the gap between the game's rendering pipeline and external applications, enabling advanced shader injection and custom overlay capabilities without compromising system performance.
+
+Core Features
+DXGI Proxy Architecture: Wraps the swapchain for efficient, direct integration.
+
+Depth Texture Streaming: Captures and exposes shared depth handles for real-time access.
+
+Low-Latency Pipeline: Optimized for minimal CPU/GPU overhead during frame capture.
+
+External Integration: Seamlessly feeds data to external processes for custom rendering overlays.
